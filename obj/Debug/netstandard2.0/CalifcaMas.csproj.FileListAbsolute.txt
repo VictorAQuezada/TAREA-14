@@ -1,0 +1,15 @@
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\obj\Debug\netstandard2.0\CalifcaMas.csproj.AssemblyReference.cache
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\obj\Debug\netstandard2.0\CalifcaMas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\obj\Debug\netstandard2.0\CalifcaMas.AssemblyInfoInputs.cache
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\obj\Debug\netstandard2.0\CalifcaMas.AssemblyInfo.cs
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\obj\Debug\netstandard2.0\CalifcaMas.csproj.CoreCompileInputs.cache
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\bin\Debug\netstandard2.0\CalifcaMas.deps.json
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\bin\Debug\netstandard2.0\CalifcaMas.dll
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\bin\Debug\netstandard2.0\ref\CalifcaMas.dll
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\bin\Debug\netstandard2.0\CalifcaMas.pdb
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\obj\Debug\netstandard2.0\CalifcaMas.dll
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\obj\Debug\netstandard2.0\refint\CalifcaMas.dll
+C:\Users\Shint\Desktop\APPS\CalifcaMas\CalifcaMas\obj\Debug\netstandard2.0\CalifcaMas.pdb

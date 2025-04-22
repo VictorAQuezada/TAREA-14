@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SistemaCalificacion.MainPage"
+             BackgroundColor="#F8F9FA">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15" VerticalOptions="Center">
+
+            <StackLayout Spacing="10" HorizontalOptions="Center">
+                <Label Text="📊 Sistema de Calificación"
+                       FontSize="28"
+                       TextColor="#2C3E50"
+                       FontAttributes="Bold"/>
+
+                <Label Text="Victor Quezada"
+                       FontSize="20"
+                       TextColor="#3498DB"
+                       FontAttributes="Italic"/>
+            </StackLayout>
+
+            <StackLayout Spacing="12" BackgroundColor="White" Padding="15">
+                <StackLayout Spacing="8">
+                    <Label Text="Matrícula"
+                           TextColor="#34495E"
+                           FontAttributes="Bold"/>
+                    <Entry x:Name="MatriculaEntry"
+                           Placeholder="Ej: 2024-001"
+                           TextColor="#2C3E50"
+                           BackgroundColor="#F8F9FA"/>
+                </StackLayout>
+
+                <StackLayout Spacing="8">
+                    <Label Text="Nombre Estudiante"
+                           TextColor="#34495E"
+                           FontAttributes="Bold"/>
+                    <Entry x:Name="NombreEntry"
+                           Placeholder="Nombre completo"
+                           TextColor="#2C3E50"
+                           BackgroundColor="#F8F9FA"/>
+                </StackLayout>
+
+                <Grid ColumnSpacing="10" RowSpacing="12">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Row="0" Grid.Column="0" Spacing="5">
+                        <Label Text="Asistencia"
+                               TextColor="#34495E"
+                               FontAttributes="Bold"/>
+                        <Entry x:Name="AsistenciaEntry"
+                               Placeholder="0-100"
+                               Keyboard="Numeric"
+                               TextColor="#2C3E50"
+                               BackgroundColor="#F8F9FA"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="0" Grid.Column="1" Spacing="5">
+                        <Label Text="Trabajo Práctico"
+                               TextColor="#34495E"
+                               FontAttributes="Bold"/>
+                        <Entry x:Name="TrabajoPracticoEntry"
+                               Placeholder="0-100"
+                               Keyboard="Numeric"
+                               TextColor="#2C3E50"
+                               BackgroundColor="#F8F9FA"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="1" Grid.Column="0" Spacing="5">
+                        <Label Text="Examen Parcial"
+                               TextColor="#34495E"
+                               FontAttributes="Bold"/>
+                        <Entry x:Name="ExamenParcialEntry"
+                               Placeholder="0-100"
+                               Keyboard="Numeric"
+                               TextColor="#2C3E50"
+                               BackgroundColor="#F8F9FA"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="1" Grid.Column="1" Spacing="5">
+                        <Label Text="Examen Final"
+                               TextColor="#34495E"
+                               FontAttributes="Bold"/>
+                        <Entry x:Name="ExamenFinalEntry"
+                               Placeholder="0-100"
+                               Keyboard="Numeric"
+                               TextColor="#2C3E50"
+                               BackgroundColor="#F8F9FA"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+
+            <Button Text="CALCULAR NOTA FINAL"
+                    BackgroundColor="#3498DB"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    Clicked="Button_Clicked"
+                    Margin="0,10"/>
+
+            <StackLayout Spacing="15" BackgroundColor="White" Padding="15">
+                <StackLayout Spacing="5" HorizontalOptions="Center">
+                    <Label Text="Nota Final"
+                           TextColor="#34495E"
+                           FontAttributes="Bold"/>
+                    <Label x:Name="NotaFinalLabel"
+                           TextColor="#2ECC71"
+                           FontSize="28"
+                           FontAttributes="Bold"/>
+                </StackLayout>
+
+                <StackLayout Spacing="5" HorizontalOptions="Center">
+                    <Label Text="Equivalencia"
+                           TextColor="#34495E"
+                           FontAttributes="Bold"/>
+                    <Label x:Name="EquivalenciaLabel"
+                           TextColor="#E74C3C"
+                           FontSize="28"
+                           FontAttributes="Bold"/>
+                </StackLayout>
+
+                <StackLayout Spacing="5" HorizontalOptions="Center">
+                    <Label Text="Resultado"
+                           TextColor="#34495E"
+                           FontAttributes="Bold"/>
+                    <Label x:Name="resultadoLabel"
+                           FontSize="24"
+                           HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+
+            <Label Text="Desarrollado por Victor Quezada"
+                   FontSize="14"
+                   HorizontalOptions="Center"
+                   TextColor="#95A5A6"
+                   FontAttributes="Italic"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
